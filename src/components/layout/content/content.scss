@@ -1,0 +1,21 @@
+.content-box {
+  padding-top: 10rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-box {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  .info {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid blue;
+  }
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+}

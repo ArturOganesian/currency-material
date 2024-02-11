@@ -1,0 +1,11 @@
+.chart-box {
+  display: flex;
+  justify-content: center;
+  height: 400px !important;
+  width: 20%;
+  @media screen and (max-width: 900px) {
+      width: 100%;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+}

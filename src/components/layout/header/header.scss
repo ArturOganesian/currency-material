@@ -1,0 +1,22 @@
+.header-box {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+
+  align-items: center;
+  height: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+}
+
+.header-text {
+  font-size: 20px !important;
+}
+.link_box {
+  display: flex;
+  gap: 15px;
+  a {
+    color: white;
+    font-size: 20px;
+  }
+}
